@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Signup";
+}
+
+<div class="row">
+    <h2>Signup</h2>
+    <div class="col-md-6 col-md-offset-3">
+        <form action="/account/signup" method="post">
+            <input type="text" name="firstName" placeholder="First Name" class="form-control" />
+            <input type="text" name="lastName" placeholder="Last Name" class="form-control" />
+            <input type="text" name="email" placeholder="Email" class="form-control" />
+            <input type="password" name="password" placeholder="Password" class="form-control" />
+            <button class="btn btn-success">Signup</button>
+        </form>
+    </div>
+</div>
